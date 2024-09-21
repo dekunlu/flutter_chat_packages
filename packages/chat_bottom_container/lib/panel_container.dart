@@ -103,7 +103,7 @@ class _ChatBottomPanelContainerState<T>
 
   /// Record the height of the keyboard. It will only be updated when the
   /// keyboard pops up and the height of the keyboard itself changes.
-  double currentNativeKeyboardHeight = 0;
+  double currentNativeKeyboardHeight = 250;
 
   /// Determine whether the keyboard height changes due to the keyboard's own
   /// function.
